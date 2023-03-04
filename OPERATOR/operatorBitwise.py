@@ -1,0 +1,5 @@
+print("Operator Bitwise")
+print("====================")
+print("9 & 7 = ", 9 & 7)
+print("9 | 7 = ", 9 | 7)
+print("9 ^ 7 = ", 9 ^ 7)

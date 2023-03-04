@@ -1,0 +1,11 @@
+print("Operator Penugasan")
+print("======================")
+x = 10
+print("x =", x)
+print("x += 10", x+10)
+print("x -= 2", x-2)
+print("x *= 3", x*3)
+print("x /= 2", x/2)
+print("x %= 4", x%4)
+print("x **= 2", x**2)
+print("x //= 2", x//2)
