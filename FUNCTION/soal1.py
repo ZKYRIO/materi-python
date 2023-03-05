@@ -8,6 +8,20 @@ def pilihanUser():
     if (pilihan_user == 2):
         persegi()
 
+def pilihanYoN():
+    pilihan_user = input("Apakah anda ingin memilih kembali (y/n) : ")
+    if (pilihan_user == "y"):
+        pilihanUser()
+        pilihanYoN()
+    else :
+        pilihan_user = input("konfirmasi pilihan anda, Apakah anda ingin memilih lagi ? (y/n) : ")
+        if (pilihan_user == "y"):
+            pilihanUser()
+        if (pilihan_user == "n"):
+            print("Terima Kasih")
+        else:
+            print("Terima Kasih")
+
 def segitiga():
     print("================================")
     print("Program menghitung luas segitiga")
@@ -28,3 +42,4 @@ print("1. Segitiga")
 print("2. Persegi")
 print("\n")
 pilihanUser()
+pilihanYoN()
