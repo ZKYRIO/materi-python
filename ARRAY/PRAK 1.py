@@ -7,6 +7,7 @@ for x in range(y):
     bil = int(input("Masukkan Nilai ke- {} : ".format(x+1)))
     nilai.append(bil)
     total = total + nilai[x]
+print(nilai)
 
 print()
 print("Program Memasukkan Nilai Ke Dalam Array")

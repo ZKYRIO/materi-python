@@ -1,10 +1,10 @@
-def recursive(k):
-    if(k > 0):
-        return k + recursive(k-1)
+def recursive(x):
+    if(x > 0):
+        result = x + recursive(x-1)
+        print(result)
     else:
         result = 0
-        return result
+    return result
 
 print("\n\nRecursion Example Result")
-x = recursive(6)
-print(x)
+recursive(6)
